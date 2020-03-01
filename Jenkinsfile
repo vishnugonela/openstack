@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('S1') {
       steps {
-        sh '''echo "First step"
+        sh '''echo "First step in Pipeline"
 '''
         echo 'Step Completed'
       }
